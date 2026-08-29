@@ -1,0 +1,16 @@
+{
+  "name": "create-my-app",
+  "version": "1.0.0",
+  "description": "Projekt-Scaffolder: Vanilla-JS-, Node-API- und CLI-Templates mit CI-Workflow — ohne Dependencies",
+  "bin": {
+    "create-my-app": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "node --check bin/cli.js && node --check lib/templates.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["scaffolder", "cli", "template", "generator"],
+  "license": "MIT"
+}
